@@ -1,0 +1,30 @@
+{
+  "name": "polymer-random-sentence-generator",
+  "version": "0.0.0",
+  "description": "",
+  "main": "random-sentence-generator.html",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "webpack": "^4.6.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode production",
+    "build-dev": "webpack --config webpack.config.js --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irontiga/Polymer-random-sentence-generator.git"
+  },
+  "author": "irontiga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/irontiga/Polymer-random-sentence-generator/issues"
+  },
+  "homepage": "https://github.com/irontiga/Polymer-random-sentence-generator#readme"
+}
